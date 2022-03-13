@@ -1,0 +1,193 @@
+{
+    "users": [
+        {
+            "nom": "admin",
+            "prenom": "admin",
+            "login": "admin07@gmail.com",
+            "password": "Admin07",
+            "role": "ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "joueur",
+            "prenom": "joueur",
+            "login": "joueur07@gmail.com",
+            "password": "Joueur07",
+            "role": "JOUEUR",
+            "score": 10
+        },
+        {
+            "nom": "Diop",
+            "prenom": "Lang",
+            "login": "langdiop@gmail.com",
+            "password": "LANG11",
+            "role": "JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "wrld",
+            "prenom": "lut",
+            "login": "lutwrld@gmail.com",
+            "password": "Lutwrld11",
+            "role": "JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "syll",
+            "prenom": "saye",
+            "login": "sayesyll@gmail.com",
+            "password": "Saye11",
+            "role": "JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "admin1",
+            "prenom": "admin1",
+            "login": "admin08@gmail.com",
+            "password": "Admin08",
+            "role": "ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "admin09",
+            "prenom": "admin09",
+            "login": "admin09@gmail.com",
+            "password": "Admin09",
+            "role": "ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "trawar\u00e9",
+            "prenom": "mouhammadou",
+            "login": "traware@gmail.com",
+            "password": "Traware07",
+            "role": "JOUEUR",
+            "score": 0,
+            "avatar": "ltutof.jpg"
+        },
+        {
+            "nom": "uchiha",
+            "prenom": "lang",
+            "login": "uchiha11@gmail.com",
+            "password": "Uchiha11",
+            "role": "JOUEUR",
+            "score": 0,
+            "avatar": "uchiha11.jpg"
+        },
+        {
+            "nom": "traware",
+            "prenom": "lang",
+            "login": "traware11@gmail.com",
+            "password": "Traware1",
+            "role": "JOUEUR",
+            "score": 0,
+            "avatar": "traware11.jpg"
+        },
+        {
+            "nom": "csqjkcn",
+            "prenom": "jizbd",
+            "login": "cqjicnb@gmail.com",
+            "password": "A2zert",
+            "role": "JOUEUR",
+            "score": 0,
+            "avatar": "cqjicnb.png"
+        },
+        {
+            "nom": "syll",
+            "prenom": "saye",
+            "login": "sayesyll11@gmail",
+            "password": "Saye11",
+            "role": "ADMIN",
+            "score": 0,
+            "avatar": "sayesyll11.png"
+        }
+    ],
+    "questions": [
+        {
+            "question": "test?",
+            "nbrpts": "3",
+            "reponses": [
+                "ok",
+                "ko",
+                "jbsd",
+                "qslbn"
+            ],
+            "correct": [
+                "ko",
+                "jbsd"
+            ]
+        },
+        {
+            "question": "test?",
+            "nbrpts": "4",
+            "reponses": [
+                "ok",
+                "none",
+                "ko",
+                "po"
+            ],
+            "correct": [
+                "none",
+                "ko"
+            ]
+        },
+        {
+            "question": "test23?",
+            "nbrpts": "1",
+            "reponses": [
+                "<input disabled>"
+            ],
+            "correct": [
+                "baxna"
+            ]
+        },
+        {
+            "question": "test23?",
+            "nbrpts": "1",
+            "reponses": [
+                "<input disabled>"
+            ],
+            "correct": [
+                "jsqvbhkq"
+            ]
+        },
+        {
+            "question": "test??",
+            "nbrpts": "4",
+            "reponses": [
+                "sjkqbcj",
+                "csqkcnklqs",
+                "csqjklcnjl"
+            ],
+            "correct": [
+                "sjkqbcj",
+                "csqkcnklqs"
+            ]
+        },
+        {
+            "question": "test??",
+            "nbrpts": "4",
+            "reponses": [
+                "sjkqbcj",
+                "csqkcnklqs",
+                "csqjklcnjl"
+            ],
+            "correct": [
+                "sjkqbcj",
+                "csqkcnklqs"
+            ]
+        },
+        {
+            "question": "testuhdbchuqd?",
+            "nbrpts": "1",
+            "reponses": [
+                "tets",
+                "test",
+                "ttste"
+            ],
+            "correct": [
+                "test"
+            ]
+        }
+    ]
+}

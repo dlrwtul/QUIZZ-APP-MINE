@@ -1,0 +1,164 @@
+.containsubscribe {
+    height: 90vh;
+    padding: 2%;
+    background-color: white;
+}
+
+.subscribe {
+    background-color: #f9f9fb;
+    border: 1px solid black;
+    min-height: 100%;
+    min-width: 50em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.subscribe.PI {
+    height: 100%;
+}
+
+.escalier {
+    border-bottom: 2px solid #002D62;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 0.35em;
+    width: 100%;
+}
+
+.subscribebody {
+    height: 100%;
+}
+
+.subscribebody form {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    height: 100%;
+}
+
+.subscribeleft {
+    grid-column: 1/2;
+    height: 100%;
+}
+
+.subscribeleft .subscribeinput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-left: 2%;
+}
+
+.subscribeinput small {
+    color: red;
+}
+
+.subscribeinput .bi {
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 56.5%;
+    visibility: hidden;
+}
+
+.subscribeleft div input {
+    font-size: 1.25em;
+    width: 95%;
+    height: 3em;
+    border-radius: 2px;
+    border: none;
+    border: 3px solid #002D62;
+    outline: none;
+}
+
+
+.subscriberight {
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+}
+
+input[type=file] {
+    display: none;
+}
+
+.subscriberight label img {
+    width: 15em;
+    height: 15em;
+    border-radius: 50%;
+    border: 2px solid #002D62;
+    cursor: pointer;
+}
+
+.imgavatar {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgavatar small {
+    color: red;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.imgavatar img {
+    filter: blur(1px);
+}
+
+.imgavatar h2 {
+    position: absolute;
+    bottom: 40%;
+    left: 10%;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#subbtn {
+    cursor: pointer;
+    width: 8em;
+    border-radius: 5px;
+    background-color: #002D62;
+    color: #f9f9fb;
+    transition: ease-in-out all 0.35s;
+}
+
+#subbtn:hover {
+    width: 8.15em;
+    border-radius: 7.5px;
+}
+
+.subscribesubmit {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.subscribesubmit a {
+    text-decoration: none;
+    color: #002D62;
+}
+
+.subscribeleftheader {
+    height: 12.5%;
+    padding-left: 2%;
+    margin-bottom: 3%;
+    border-bottom: 2px solid #002D62;
+}
+
+.subscribeleftheader h4 {
+    position: relative;
+    bottom: 10px;
+}
+
+.firstname.error,.lastname.error,.loginsub.error,.passwordsub.error,.cpasswordsub.error {
+    border: 5px solid red;
+}
+
+.firstname.succes,.lastname.succes,.loginsub.succes,.passwordsub.succes,.cpasswordsub.succes {
+    border: 5px solid green;
+}

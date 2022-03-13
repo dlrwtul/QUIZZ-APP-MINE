@@ -1,0 +1,130 @@
+.containlogin {
+    height: 90vh;
+    max-height: 90vh;
+    background-color: #f3f3fa;
+    display: grid;
+    grid-template-columns: auto 50em auto;
+    grid-template-rows: auto 30em auto;
+}
+
+.login {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    height: 27.5em;
+    width: 50em;
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: 5em auto;
+}
+
+.loginheader {
+    background-color: #002D62;
+    grid-row: 1/2;
+    border: 1px solid black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginbody {
+    background-color: #B9D9EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: flex-start;
+    padding-top: 7%;
+}
+
+.logininput {
+    display: flex;
+    flex-direction: column;
+    margin: 1% 0;
+    margin-bottom: 2%;
+}
+
+.logininput small {
+    color: red;
+}
+
+.logininput input {
+    height: 2.5em;
+    width: 30em;
+    outline: none;
+    padding-left: 1%;
+    font-size: 1.25em;
+}
+
+.logininput input:hover {
+    border: 3px solid #002D62;
+}
+
+.logininput  label {
+    font-weight: 500;
+}
+
+.logininput .bi {
+    position: absolute;
+    margin-top: 2em;
+    margin-left: 35.5em;
+    
+}
+
+.bi.bi-check2-circle {
+    color: green;
+    visibility: hidden;
+}
+
+.bi.bi-x-octagon {
+    color: red;
+    visibility: hidden;
+}
+
+.loginsubmit {
+    padding: 0 3%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loginsubmit input[type=submit] {
+    padding: 2% 6%;
+    background-color: #002D62;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.loginsubmit input[type=submit]:hover {
+    background-color: white;
+    color: #002D62;
+}
+
+.loginsubmit a {
+    color: black;
+    text-decoration: none;
+}
+
+.login.error,.password.error {
+    border: 5px solid red;
+    position: relative;
+    animation: shake .1s linear;
+    animation-iteration-count: 3;
+}
+.login.succes,.password.succes {
+    border: 5px solid green;
+}
+
+.password.shake,.login.shake {
+    position: relative;
+    animation: shake .1s linear;
+    animation-iteration-count: 3;
+}
+
+@keyframes shake {
+    0% { left: -5px; }
+    100% { right: -5px; }
+}

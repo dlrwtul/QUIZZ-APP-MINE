@@ -1,0 +1,160 @@
+.rightcontain.ajoutquestions {
+    width: 98%;
+    padding-top: 1%;
+    overflow-y: scroll;
+}
+
+.ajoutquestions {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ajoutquestions form {
+    width: 96%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.staticcontain {
+    height: 40%;
+    width: 100%;
+    margin-top: 1%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.staticcontain label {
+    font-size: 1.25em;
+    margin-bottom: 0.25%;
+}
+
+.staticcontain .inputdiv {
+    display: flex;
+    flex-direction: column;
+    margin: 0.25% 0;
+}
+
+.inputdiv.question input[type=text] {
+    font-size: 1.5em;
+    height: 4em;
+    width: 95%;
+}
+
+.inputdiv.nbrpts input[type=text] {
+    font-size: 1.5em;
+    height: 2em;
+    width: 3em;
+}
+
+.inputdiv.nbrpts div {
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+}
+
+.inputdiv.nbrpts svg {
+    cursor: pointer;
+    color: black;
+}
+
+.inputdiv.typerep {
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+    position: relative;
+    left: 40%;
+    bottom: 2.75em;
+}
+
+.inputdiv.typerep .plus {
+    cursor: pointer;
+    width: 2em;
+    position: relative;
+    margin-left: 1em;
+    text-align: center;
+    color: aliceblue;
+    background-color: #041E42;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.inputdiv.typerep select {
+    font-size: 1.25em;
+    width: 50%;
+}
+
+.dynamiccontain {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.reponses {
+    height: 3em;
+    font-size: 1.25em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reponses label {
+    margin-right: 2em;
+}
+
+.reponses input[type=text] {
+    font-size: 1.5em;
+    width: 70%;
+}
+
+.reponses input[type=radio] {
+    width: 20px;
+    height: 20px;
+}
+
+.reponses input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+}
+
+.reponses svg {
+    cursor: pointer;
+    color: #041E42;
+}
+
+.submitcontain {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.submitcontain input[type=submit] {
+    background-color: #041E42;
+    cursor: pointer;
+    color: white;
+    font-size: 1.15em;
+    padding: 0.5% 3% ;
+    border: none;
+    border-radius: 5px;
+    transition: ease-in-out all 0.35s;
+}
+
+.submitcontain input[type=submit]:hover {
+    padding: 0.5% 3.25% ;
+    background-color: #030b18;
+}
+
+.question.succes,.nbrpts.succes {
+    border: 4px solid green;
+}
+
+.question.error,.nbrpts.error {
+    border: 4px solid red;
+}
